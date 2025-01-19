@@ -108,6 +108,26 @@ The S3 Tables Catalog can now be run as a REST service, implementing the Iceberg
 
 The service will start on port 8181 by default with the context path `/iceberg`.
 
+### Testing the Service
+
+Once the service is running, you can test it using curl commands. Here are some basic examples:
+
+```bash
+# Get catalog configuration
+curl http://localhost:8181/iceberg/v1/config
+
+# List all namespaces
+curl http://localhost:8181/iceberg/v1/namespaces
+
+# Create a new namespace
+curl -X POST http://localhost:8181/iceberg/v1/namespaces \
+  -H "Content-Type: application/json" \
+  -d '{"namespace": ["my_namespace"]}'
+
+# List tables in a namespace
+curl http://localhost:8181/iceberg/v1/tables?namespace=my_namespace
+```
+
 ### REST API Endpoints
 
 The following REST endpoints are available:
