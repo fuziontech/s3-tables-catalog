@@ -2,9 +2,9 @@
 
 <!-- Note for developer: Edit your repository description on GitHub -->
 
-The Amazon S3 Tables Catalog for Apache Iceberg is an open-source library that bridges [S3 Tables](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables.html) operations to engines like [Apache Spark](https://spark.apache.org/), when used with the [Apache Iceberg](https://iceberg.apache.org/) Open Table Format. 
+The Amazon S3 Tables Catalog for Apache Iceberg is an open-source library that bridges [S3 Tables](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables.html) operations to engines like [Apache Spark](https://spark.apache.org/), when used with the [Apache Iceberg](https://iceberg.apache.org/) Open Table Format.
 
-This library can: 
+This library can:
 * Translate [Apache Iceberg](https://iceberg.apache.org/) operations such as table discovery, metadata reads, and updates
 * Add and removes tables in Amazon S3 Tables
 
@@ -22,9 +22,9 @@ Amazon S3 Tables Catalog for Apache Iceberg is generally available. We're always
 
 If you discover a potential security issue in this project we ask that you notify Amazon Web Services (AWS) Security via our [vulnerability reporting page](http://aws.amazon.com/security/vulnerability-reporting/). Please do not create a public GitHub issue.
 
-## Getting Started 
+## Getting Started
 
-To get started with Amazon S3 Tables, see [Tutorial: Getting started with S3 Tables](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables-getting-started.html) in the *Amazon S3 User Guide*. 
+To get started with Amazon S3 Tables, see [Tutorial: Getting started with S3 Tables](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-tables-getting-started.html) in the *Amazon S3 User Guide*.
 
 ### Configuration
 
